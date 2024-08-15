@@ -9,12 +9,12 @@ export default function Footer() {
         <span>© 2024 - Marion Corvez</span>
         <Contact />
         <a
-          href="https://www.ecoindex.fr/en/result/?id=1cea285d-5c1a-42f2-b190-9e2bddb368c9"
+          href="https://www.ecoindex.fr/en/result/?id=773800da-24ad-4d0a-a902-ae508933aacd"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://portfolio-naotas-projects.vercel.app/"
+            src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://marioncorvez.github.io/"
             alt="Ecoindex Badge"
             width={108}
             height={32}

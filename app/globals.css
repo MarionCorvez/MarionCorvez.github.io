@@ -9,6 +9,7 @@
 /* 3..............................Theme */
 /* 4.............................Layout */
 /* 5...........................404 page */
+/* 6..............................Print */
 
 /*
   ========================================
@@ -266,4 +267,63 @@ footer {
 .link:hover {
   color: var(--accent);
   border-bottom: 1px solid transparent;
+}
+
+/*
+  ========================================
+  $Print
+  ========================================
+*/
+
+@media print {
+  :root {
+    --accent: #000;
+  }
+  .screen {
+    padding: var(--padding-xs) !important;
+  }
+  .moon,
+  .Skills_card_front__1JJmv,
+  .Skills_card_icon__oeGGk,
+  .Footer_ecoindex__LZzZ7,
+  .Footer_container__7gd5A .Contact_list__QyM8D,
+  .Work_picture__XrZ52 {
+    display: none;
+  }
+  .theme--anthracite,
+  .theme--grey,
+  .Work_cta_code__VmFI3 {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+  }
+  p,
+  li {
+    max-width: 50ch !important;
+  }
+  .Header_availability__5YCtI {
+    padding: 0 !important;
+  }
+  .Work_cta_code__VmFI3 {
+    border: 1px solid var(--foreground) !important;
+  }
+  .Skills_panel__duR8q {
+    page-break-inside: avoid;
+  }
+  .Skills_card__FRV3g {
+    border: 1px solid var(--foreground) !important;
+  }
+  .Skills_card_inner__fi_Z6 {
+    transform: rotateY(-180deg);
+  }
+  .Contact_list__QyM8D {
+    flex-direction: column;
+  }
+  .Contact_list__QyM8D li:not(:first-child) {
+    margin-left: 0 !important;
+  }
+  .Contact_list__QyM8D a::before,
+  a::after {
+    text-transform: lowercase;
+    content: " (" attr(href) ") ";
+  }
 }

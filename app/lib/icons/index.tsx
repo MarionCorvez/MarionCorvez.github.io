@@ -1,6 +1,5 @@
 import { SVGProps } from "react";
 import { Adobe } from "./adobe";
-import { Asana } from "./asana";
 import { Css } from "./css";
 import { Figma } from "@/app/lib/icons/figma";
 import { Git } from "./git";
@@ -21,7 +20,6 @@ import { Wordpress } from "./wordpress";
 
 const ICONS: { [key: string]: any } = {
   "Adobe XD": Adobe,
-  Asana: Asana,
   "CSS Modules": Css,
   Figma: Figma,
   Git: Git,

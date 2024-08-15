@@ -1,3 +1,21 @@
+const contacts = [
+  {
+    title: "Email",
+    link: "mailto:marion.corvez@gmail.com",
+    description: "Send me an email, open webmail",
+  },
+  {
+    title: "GitHub",
+    link: "https://github.com/MarionCorvez",
+    description: "Visit my GitHub account, new window",
+  },
+  {
+    title: "LinkedIn",
+    link: "https://www.linkedin.com/in/marioncorvez/",
+    description: "Visit my LinkedIn page, new window",
+  },
+];
+
 const works = [
   {
     id: "e3ab19975640",
@@ -22,7 +40,7 @@ const works = [
     id: "e14d1943f464",
     title: "Kasa",
     description:
-      "Kasa, a peer-to-peer apartment rental company, wants to create a complete web application with React. Each accommodation must contain a slider and information about the location such as location, host name and picture, rating, amenities, etc.",
+      "Kasa, a peer-to-peer apartment rental company, wants to create a complete web application with React. Each page must contain a slider and information about the accommodation such as location, host name and picture, rating, amenities, etc.",
     image: "/works/kasa.webp",
     tags: ["sass", "javascript", "react"],
     code: "https://github.com/MarionCorvez/kasa",
@@ -32,7 +50,7 @@ const works = [
     id: "5b619fe57baa",
     title: "Sophie Bluel",
     description:
-      "The project is built with Node.js and consists of creating the portfolio of Sophie Bluel, an interior designer, and presenting her projects filtered by categories. With an admin access, the architect must be able to manage her work: add, modify or delete it.",
+      "Built with Node.js, this project consists in creating the portfolio of Sophie Bluel, an interior designer, and presenting her projects filtered by categories. With an admin access, the architect must be able to add, modify or delete her work.",
     image: "/works/sophie-bluel.webp",
     tags: ["sass", "javascript"],
     code: "https://github.com/MarionCorvez/sophie-bluel",
@@ -53,7 +71,6 @@ const skills = [
   "Squarespace",
   "Figma",
   "Adobe XD",
-  "Asana",
   "Notion",
   "Slack",
   "Git",
@@ -61,9 +78,23 @@ const skills = [
   "Swagger",
 ];
 
-const experience = ["HTML5"];
+const experience = {
+  studies: [
+    "2024 (WIP): RNCP level 5 in Front-end Development",
+    "2007: Master in Medias & Communication",
+    "2006: Master in Literature",
+  ],
+  positions: [
+    "2022 - now: Design & Development of web applications",
+    "2017 - 2021: New Media Teacher",
+    "2007 - 2016: Digital Product Manager",
+  ],
+  clients:
+    "Arianespace, Danone, Dassault Systèmes, La Mutualité Française, Le Conservateur, Le Monde, LVMH, PSA Group, Splendia, SFR, SNCF, Ubisoft, Viparis",
+};
 
 module.exports = {
+  contacts,
   works,
   skills,
   experience,

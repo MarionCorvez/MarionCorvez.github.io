@@ -94,7 +94,7 @@
   }
 }
 
-@media (768px <= width <= 1024px) {
+@media screen and (768px <= width <= 1024px) {
   .card {
     flex-wrap: nowrap;
   }
