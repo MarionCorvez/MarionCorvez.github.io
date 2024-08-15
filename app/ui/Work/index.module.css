@@ -6,6 +6,10 @@
   margin: var(--padding-s) 0 var(--padding-xs);
 }
 
+.card {
+  box-sizing: border-box;
+}
+
 .picture {
   width: 100%;
   overflow: hidden;
@@ -43,8 +47,6 @@
   padding-left: 0.75rem;
   border-left: 1px solid currentColor;
 }
-
-/* Test buttons */
 
 .ctas {
   display: flex;

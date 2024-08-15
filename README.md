@@ -39,7 +39,7 @@ Pour ce projet, il s'agit de créer un site portfolio qui pourra être présent�
 7. [x] Étape 7 : Dynamiser les données de l'application
 8. [x] Étape 8 : Développer les fonctionnalités avancées
 9. [x] Étape 9 : Configurer l'application pour la mise en ligne
-10. [ ] Étape 10 : Faire une revue complète du projet
+10. [x] Étape 10 : Faire une revue complète du projet
 
 ## Objectifs pédagogiques
 
