@@ -1,9 +1,18 @@
+.section {
+}
+
 .panel {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--padding-xs);
   padding-top: var(--padding-s);
+}
+
+@media screen and (width >= 1025px) {
+  .panel {
+    margin: 0 6rem;
+  }
 }
 
 .card {
