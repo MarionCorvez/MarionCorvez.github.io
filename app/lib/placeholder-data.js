@@ -80,7 +80,7 @@ const skills = [
 
 const experience = {
   studies: [
-    "2024 (WIP): RNCP level 5 in Front-end Development",
+    "2024: RNCP level 5 in Front-end Development",
     "2007: Master in Medias & Communication",
     "2006: Master in Literature",
   ],
