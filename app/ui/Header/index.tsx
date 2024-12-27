@@ -9,9 +9,9 @@ export default function Header() {
       <div className={`${styles.container} flex--between screen`}>
         <div className={styles.heading}>
           <h1 className={styles.title}>Marion Corvez</h1>
-          <p className={styles.availability}>
+          {/*           <p className={styles.availability}>
             Available in <strong>November, 2024</strong>
-          </p>
+          </p> */}
         </div>
         <Switchmode />
       </div>
